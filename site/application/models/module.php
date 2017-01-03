@@ -12,6 +12,39 @@ class Module extends CI_Model
 		//session_start();
     }
 	
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	public function get_patients(){
+		$this->db->select('*');
+		$this->db->from('psp_patients');
+		$query = $this->db->get();
+		return $query->result_array(); 	
+		}
+	public function get_patients_by_id($id){
+
+		$this->db->select('*');
+		$this->db->where("id",$id);
+		$this->db->from('psp_patients');
+		$query = $this->db->get();
+		return $query->result_array();
+
+		}
+
+public function delete_patients($id){
+
+		$this->db->where('id ', $id);
+		$this->db->delete('psp_patients'); 
+
+		}
+public function update_patients($id){
+
+		$this->db->where('id', $id);
+		$this->db->update('psp_patients', $data);
+		return true;
+
+		}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 		function get_setting_values()
     {
 		$this->db->select('setting_value');

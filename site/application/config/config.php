@@ -23,7 +23,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url']	= '';
 $site_url = 'http://localhost/patient-portal/'; 
 $config['base_url']	= 'http://localhost/patient-portal/site';
 $config['site_base_url'] = 'http://localhost/patient-portal/';
