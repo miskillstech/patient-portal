@@ -23,9 +23,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$site_url = 'http://www.miskillstech.com/patient-portal/'; 
-$config['base_url']	= 'http://www.miskillstech.com//patient-portal/site';
-$config['site_base_url'] = 'http://www.miskillstech.com/patient-portal/';
+$site_url = ''; 
+$config['base_url']	= '';
+$config['site_base_url'] = '';
+
+//$site_url = 'http://www.miskillstech.com/patient-portal/'; 
+//$config['base_url']	= 'http://www.miskillstech.com//patient-portal/site';
+//$config['site_base_url'] = 'http://www.miskillstech.com/patient-portal/';
 
 
 //$site_url = 'http://localhost/patient-portal/'; 
