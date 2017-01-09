@@ -23,9 +23,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$site_url = 'http://localhost/patient-portal/'; 
-$config['base_url']	= 'http://localhost/patient-portal/site';
-$config['site_base_url'] = 'http://localhost/patient-portal/';
+$site_url = 'http://www.miskillstech.com/patient-portal/'; 
+$config['base_url']	= 'http://www.miskillstech.com//patient-portal/site';
+$config['site_base_url'] = 'http://www.miskillstech.com/patient-portal/';
+
+
+//$site_url = 'http://localhost/patient-portal/'; 
+//$config['base_url']	= 'http://localhost/patient-portal/site';
+//$config['site_base_url'] = 'http://localhost/patient-portal/';
 /*
 |--------------------------------------------------------------------------
 | Index File
